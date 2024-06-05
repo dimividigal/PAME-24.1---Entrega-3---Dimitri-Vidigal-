@@ -7,8 +7,8 @@ function Header(){
     return(
         <div className=" h-[15vh] w-screen bg-blue-950 flex items-center justify-center gap-12">
 
-        <Image src={logo} className="w-[15vh] h-[15vh]" alt={""}></Image>
-        <div className="h-[25px] w-[110px] bg-yellow-400 flex justify-center">
+        <Image src={logo} className="w-[12vh] h-[12vh] rounded-full" alt={""}></Image>
+        <div className="h-[25px] w-[110px] bg-yellow-400 flex justify-center rounded-lg">
             <h1 className=" text-purple-900 font-sans font-bold )">WaveConnect</h1>
         </div>
         
